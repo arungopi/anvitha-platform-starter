@@ -1,0 +1,23 @@
+services:
+  web:
+    build:
+      context: ./apps/web
+    networks:
+      - platform-net
+
+  user-service:
+    build:
+      context: ./services/user-service
+    networks:
+      - platform-net
+
+  order-service:
+    build:
+      context: ./services/order-service
+    networks:
+      - platform-net
+
+networks:
+  platform-net:
+    name: anvitha-platform-net
+    external: true

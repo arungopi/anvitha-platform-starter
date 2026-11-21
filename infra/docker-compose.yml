@@ -1,0 +1,20 @@
+services:
+  apisix:
+    # image, ports, volumes, and other APISIX settings
+    networks:
+      - platform-net
+
+  keycloak:
+    # image, environment, ports, and other Keycloak settings
+    networks:
+      - platform-net
+
+  etcd:
+    # image, command, volumes, and other etcd settings
+    networks:
+      - platform-net
+
+networks:
+  platform-net:
+    name: anvitha-platform-net
+    external: true
