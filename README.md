@@ -1,6 +1,5 @@
-## Anvitha (अन्वित) Next.js Clean code starter
-The framework for building scalable, maintainable, and composition-focused React applications.
-This is a [Next.js](https://nextjs.org) project bootstrapped with `npx create-nextjs-app@15`
+## Anvitha (अन्वित) Platform starter
+The framework for building scalable, maintainable, and composition-focused React applications using Next.js, Keycloak and APISIX. It follows clean code architecture.This is a [Next.js](https://nextjs.org) project bootstrapped with `npx create-nextjs-app@15`
 ## Getting Started
 
 First, run the development server:
