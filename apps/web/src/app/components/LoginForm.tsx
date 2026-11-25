@@ -259,7 +259,8 @@ export default function LoginForm() {
                     <ButtonGroup
                         orientation="vertical"
                         aria-label="Vertical button group"
-                        variant="outlined"
+                        variant="contained"
+                        fullWidth
                     >
                         {renderLoginButtons(providers)}
                     </ButtonGroup>
